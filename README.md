@@ -1,10 +1,10 @@
 # University Research Opportunity Portal
 
-A full-stack web application where faculty members can post, view, update, close, and delete research opportunities in one place. Built for the Computer Networks (CN) course, Assignment 1.
+A full-stack web application where faculty members can post, view, update, close, and delete research opportunities in one place.
 
 **GitHub Repository:** https://github.com/ARAnwar1866/University-Research-Opportunity-Portal
 
-**Demo Video:** ADD-VIDEO-LINK-HERE
+**Demo Video:** https://drive.google.com/file/d/1_rtkGTkFFfwerCJoJbZ6VesGhZ_GdKrW/view?usp=sharing
 
 **Author:** Abdul Rehman Mohammad Anwar | Roll. No: 24P-0601 | Class: BCS 5B
 
@@ -53,8 +53,8 @@ Optional sample data: `mysql -u <your_mysql_username> -p < database/seed.sql`
 Copy `backend/.env.example` to `backend/.env` and fill in your MySQL credentials:
 ```
 DB_HOST=localhost
-DB_USER=your_mysql_username
-DB_PASSWORD=your_mysql_password
+DB_USER=mysql_username
+DB_PASSWORD=mysql_password
 DB_NAME=research_portal
 PORT=3000
 ```
