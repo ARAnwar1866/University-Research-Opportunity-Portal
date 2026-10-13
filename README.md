@@ -44,9 +44,9 @@ cd research-opportunity-portal
 
 **2. Create the database**
 ```
-mysql -u <your_mysql_username> -p < database/schema.sql
+mysql -u root -p < database/schema.sql
 ```
-Optional sample data: `mysql -u <your_mysql_username> -p < database/seed.sql`
+Optional sample data: `mysql -u root -p < database/seed.sql`
 
 **3. Configure environment variables**
 
